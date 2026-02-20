@@ -18,7 +18,7 @@ CREATE TABLE  public.support_logs (
 -- Data insertion from S3 Bucket of support-logs --
 COPY public.support_logs
 FROM 's3://careplus-dataplus-store/support-logs/processed-data/'
-IAM_ROLE 'arn:aws:iam::806571985364:role/service-role/AmazonRedshift-CommandsAccessRole-20260111T203159'
+IAM_ROLE 'arn:aws:iam::666777:role/service-role/AmazonRedshift-CommandsAccessRole-123123'
 FORMAT AS PARQUET
 REGION 'eu-central-1';
 
@@ -39,6 +39,6 @@ CREATE TABLE public.support_tickets (
 -- Data insertion from S3 Bucket of support-logs --
 COPY public.support_tickets
 FROM 's3://careplus-dataplus-store/support-tickets/processed-data/'
-IAM_ROLE 'arn:aws:iam::806571985364:role/service-role/AmazonRedshift-CommandsAccessRole-20260111T203159'
+IAM_ROLE 'arn:aws:iam::666777:role/service-role/AmazonRedshift-CommandsAccessRole-123123'
 FORMAT AS PARQUET
 REGION 'eu-central-1';

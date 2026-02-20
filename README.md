@@ -18,13 +18,13 @@ This project moves support logs and support tickets through ingestion, transform
 ![visual-etl-glue](data-transformation/support-tickets-glue-etl/aws-glue-visual-etl.png)
 
 ### Architecture
-![pipeline](data-warehousing-analytics\aws-pipeline.png)
+![pipeline](data-warehousing-analytics/aws-pipeline.png)
 
 ### Support-logs Quicksight
-![support-logs](data-warehousing-analytics\amazon-quicksight\support-logs-quicksight.png)
+![support-logs](data-warehousing-analytics/amazon-quicksight/support-logs-quicksight.png)
 
 ### Support-tickets Quicksight
-![support-tickets](data-warehousing-analytics\amazon-quicksight\support-tickets-quicksight.png)
+![support-tickets](data-warehousing-analytics/amazon-quicksight/support-tickets-quicksight.png)
 ### Data Warehouse
 - Analytics and warehouse assets.
 - `athena-sql-queries/` contains ad-hoc SQL queries on S3.

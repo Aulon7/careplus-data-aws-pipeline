@@ -1,0 +1,8 @@
+# Environment variables & secrets
+.env
+
+# Python cache
+__pycache__/
+
+# VS Code
+.vscode/
